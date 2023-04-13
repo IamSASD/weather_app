@@ -1,0 +1,6 @@
+CREATE DATABASE weather_app;
+
+CREATE TABLE history(
+    id BIGSERIAL PRIMARY KEY NOT NULL,
+    places VARCHAR(20) NOT NULL
+);
